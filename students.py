@@ -10,7 +10,8 @@ student = {'name': ['Michael', 'Kamau'],
 last_name = student.get('name')
 
 print last_name[1]
-print student.get('name')
+print last_name[0], last_name[1]
 print student.get('phone_number')
 print student.get('date_of_birth')
 print year  - student.get('date_of_birth')
+
